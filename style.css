@@ -1,0 +1,142 @@
+
+
+body {
+  background-color: gray;
+}
+
+#buttons {
+  position: absolute;
+/*  margin-top: 10px;
+  margin-left: 5px;*/
+  height: 100px
+  width: 150px;
+  visibility: visible;
+  border: 3px solid red;
+  background-color: white;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+  color: yellow;
+}
+
+#player {
+  float: left;
+
+}
+#watson {
+  float: right;
+  margin-right: 30px;
+}
+
+#beer {
+  background-color: blue;
+  color: yellow;
+}
+#whisky {
+  background-color: blue;
+  color: yellow;
+}
+
+#insults {
+  background-color: blue;
+  color: yellow;
+}
+
+
+.form {
+  display: none;
+  
+}
+
+.formShow {
+    position: absolute;
+    z-index: 2;
+    height: 25px;
+    width: 680px;
+    padding: 50px;
+    background-color: red;
+    border-radius: 10px;
+    visibility: visible;
+    transition: .35s;
+    margin-top: -145px;
+    margin-left: 260px;
+    transition: .35s;
+
+
+}
+
+.hiding {
+  position: absolute;
+  visibility: hidden;
+/*  transition: .20s;*/
+  z-index: 1;
+  border: solid black 3px;
+  color: white;
+  font-size: 32px;
+  margin-top: 6%;
+  margin-left: 20%;
+  background-color: blue;
+
+}
+.expanded {
+    position: absolute;
+    z-index: 1;
+    height: 215px;
+    width: 570px;
+    padding: 100px;
+    background-color: blue;
+    border-radius: 10px;
+    visibility: visible;
+    transition: .35s;
+    margin-top: 6%;
+    margin-left: 20%;
+
+}
+
+table {
+  table-layout: fixed;
+  border: 1px solid black;
+  height: 500px;
+  width: 60%; 
+  margin-left: 20%; 
+  margin-right: 20%;
+  background-color: black;
+  position: relative;
+  z-index: 0;
+}
+
+td {
+background-color: blue;
+}
+
+td:hover {
+background-color: red;
+}
+
+th {
+  word-wrap: break-word;
+  height: 75px;
+  width: 50px;
+  background-color: blue;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: yellow;
+  font-size: 24px
+}
+
+.clear {
+  position: absolute;
+  visibility: hidden;
+}
+
+#container3 {
+  position: absolute;
+  visibility: hidden;
+}
+
