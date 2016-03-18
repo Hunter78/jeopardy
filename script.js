@@ -459,16 +459,16 @@ function playAgain() {
 }
 
 function beer(){
-  if (playerTotal > 2499){
-    playerTotal-= 2500;
-    watsonMagicNumber += 2000;
+  if (playerTotal > 499){
+    playerTotal-= 500;
+    watsonMagicNumber += 2500;
     gameTotal();
   }
 }
 
 function whisky(){
-  if (playerTotal > 3999){    
-    playerTotal-= 4000;
+  if (playerTotal > 999){    
+    playerTotal-= 1000;
     watsonMagicNumber += 5000;
     gameTotal();
   }
